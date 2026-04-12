@@ -1,0 +1,80 @@
+Folder PATH listing for volume OS
+Volume serial number is 4E30-BCF0
+C:.
+¦   .gitignore
+¦   README.md
+¦   tree.txt
+¦   
++---HardwareImplementation
+¦   ¦   extract_data.py
+¦   ¦   gui.py
+¦   ¦   __init__.py
+¦   ¦   
+¦   +---Data
+¦   ¦   +---asalkar
+¦   ¦   ¦       data.csv
+¦   ¦   ¦       timestamps.csv
+¦   ¦   ¦       
+¦   ¦   +---kishore
+¦   ¦           data.csv
+¦   ¦           timestamps.csv
+¦   ¦           
+¦   +---KNN
+¦   ¦   ¦   KNN_model.py
+¦   ¦   ¦   labels.npy
+¦   ¦   ¦   train.npy
+¦   ¦   ¦   train_filtered.npy
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           KNN_model.cpython-310.pyc
+¦   ¦           KNN_model.cpython-311.pyc
+¦   ¦           KNN_model.cpython-312.pyc
+¦   ¦           
+¦   +---LSTM
+¦   ¦   ¦   LSTM_model.py
+¦   ¦   ¦   model.pt
+¦   ¦   ¦   models.py
+¦   ¦   ¦   preprocess.py
+¦   ¦   ¦   __init__.py
+¦   ¦   ¦   
+¦   ¦   +---__pycache__
+¦   ¦           LSTM_model.cpython-310.pyc
+¦   ¦           LSTM_model.cpython-311.pyc
+¦   ¦           LSTM_model.cpython-312.pyc
+¦   ¦           models.cpython-310.pyc
+¦   ¦           models.cpython-311.pyc
+¦   ¦           models.cpython-312.pyc
+¦   ¦           __init__.cpython-310.pyc
+¦   ¦           __init__.cpython-311.pyc
+¦   ¦           __init__.cpython-312.pyc
+¦   ¦           
+¦   +---utils
+¦   ¦       arrow.png
+¦   ¦       down_Arrow.png
+¦   ¦       plot.png
+¦   ¦       
+¦   +---__pycache__
+¦           extract_data.cpython-310.pyc
+¦           extract_data.cpython-312.pyc
+¦           
++---KNN_Hindi
+    +---New folder
+        ¦   KNN_hindi.py
+        ¦   Riemann_AIRM_EUCLIDEAN_final_pain_light.ipynb
+        ¦   
+        +---cache
+        ¦       best_k.npy
+        ¦       cov_matrices.npy
+        ¦       distance_matrix.npy
+        ¦       epochs.npy
+        ¦       labels.npy
+        ¦       
+        +---Data
+            +---abhay_LIGHT
+            ¦       data.csv
+            ¦       timestamps.csv
+            ¦       
+            +---abhay_PAIN
+                    data.csv
+                    timestamps.csv
+                    
